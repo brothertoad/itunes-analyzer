@@ -13,7 +13,8 @@ track number (TRACK), and total number of tracks (TRACK_TOTAL) are included.
 A little background: I created this program because I was going to recreate my
 Music library.  In particular, I was moving from a hackintosh to a Linux box,
 plus I wanted to re-rip my CD's to the FLAC format.  I ran this program to get
-a list of all the songs in my library.  I wrote a Sprint REST service that
+a list of all the songs in my library.  I wrote a Spring REST service (my
+spring-music project) that
 would take the resulting JSON file and populate a Postgresql database.
 The REST service also provided an API for a web page to show the songs,
 so I could mark each one as I re-ripped it.
