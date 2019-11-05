@@ -34,4 +34,4 @@ java -cp target/itunes-analyzer-1.0-SNAPSHOT.jar iTunes-directory output-file
 
 ## License
 
-license
+Licensed under the MIT license.
